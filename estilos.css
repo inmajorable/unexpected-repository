@@ -1,0 +1,111 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{ /*Flex direction due to size image background*/
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    background-image: url(https://xmple.com/wallpaper/dots-grey-polka-hexagon-white-2778x1284-c2-ffffff-d3d3d3-l2-28-77-a-0-f-4.svg);
+}
+header{
+    background-color: rgb(163, 73, 164);
+    display: flex;
+    justify-content: space-between;
+}
+#shop{
+    padding: 0 0 0 30px;
+}
+#search{
+    display: flex; /*default, display flex as row, property below for column*/
+    flex-direction: column;
+    justify-content: end;
+    padding: 0 20px 20px 0;
+}
+#searcher{
+    object-position: right;
+    align-items: right;
+}
+img{
+    border-radius: 80%;
+    padding: 20px;
+    height: 100px;
+}
+h1, h2{
+    color: white;
+    font-size: 40;
+    font-family:0 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+main{
+    background-image: url(https://xmple.com/wallpaper/dots-grey-polka-hexagon-white-2778x1284-c2-ffffff-d3d3d3-l2-28-77-a-0-f-4.svg);
+}
+nav{
+    background-color: rgb(199, 199, 199);
+}
+ul{
+    margin-block-start: 0em;
+    margin-block-end: 0%;
+    padding: 6px 0 1px 0;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:rgb(32, 32, 32);
+}
+li{
+    justify-content: space-between;
+    display: flex;
+    margin-inline-start: 200px;
+    margin-block-end: 10px;
+    margin-inline-end: 200px;
+}
+section{
+    text-align: center;
+}
+#comment{
+    font-style: italic;
+    font-size: x-small;
+}
+button{
+    background-color: rgb(219, 174, 219);
+    border-radius: 3px;
+    cursor: pointer;
+}
+table{
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-collapse: separate;
+    width: 450px;
+    transform: translateX(-50%);
+    margin-left: 50%;
+}
+th{
+    padding: 2px;
+    text-align: center;
+}
+table caption{
+    font-style: italic;
+    font-size: x-small;
+    caption-side: bottom;
+    background-color: white;
+}
+footer{
+    height: 2rem;
+    bottom: 0;
+    margin-top: auto;
+}
+#footerCopyright{
+    background-color: rgb(219, 174, 219);
+    text-align: center;
+    padding: 5px;
+}
