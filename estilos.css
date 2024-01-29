@@ -104,8 +104,11 @@ footer{
     bottom: 0;
     margin-top: auto;
 }
+#newsform, #workform{
+    background-color: #ccc;
+}
 #footerCopyright{
-    background-color: rgb(219, 174, 219);
+    background-color: rgb(238, 125, 240);
     text-align: center;
     padding: 5px;
 }
